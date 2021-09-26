@@ -1,4 +1,4 @@
-![Hacktoberfest 2021](./assets/logo.svg)
+![Hacktoberfest 2021](./Assets/logo.svg)
 
 # Hacktoberfest-2021
 Open source is changing the world – one contribution at a time.
