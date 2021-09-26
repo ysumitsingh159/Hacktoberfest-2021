@@ -38,7 +38,7 @@ Here's a handpicked list of **beginner-friendly issues** (& repositories) ahead 
 
 ❯ [Your First PR](#your-first-pr) 🔥
 
-❯ [Ask Your Doubts](https://github.com/GOVINDARAJLE/Hacktoberfest2021/discussions/1) 💬
+❯ [Ask Your Doubts](https://github.com/GOVINDARAJLE/Hacktoberfest-2021/discussions) 💬
 
 ## Your First PR
 
