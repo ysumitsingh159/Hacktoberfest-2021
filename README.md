@@ -55,26 +55,6 @@ Or You can go to the offical digitalocean blog page there are info about the [Ha
 
 ## Contributing
 
-- Feel free to [raise a PR](hhttps://github.com/GOVINDARAJLE/Hacktoberfest-2021/pulls) to add beginner-friendly issues (& repos).
-    - Kindly follow [this format](https://github.com/GOVINDARAJLE/Hacktoberfest2021/blob/main/.github/PULL_REQUEST_TEMPLATE/ADD_NEW_ISSUE.md) to raise the PR
-    - Add your issue to [issue.md](./issues.md)
-
-- Resolve the beginner's queries [here](https://github.com/GOVINDARAJLE/Hacktoberfest2021/discussions/1).
-
-- Are you willing to be a mentor to help beginners? **Raise a pull request** to add your name to [`MENTORS.md`](./MENTORS.md).
-    - Kindly follow [this format](https://github.com/vinitshahdeo/Hacktoberfest2021/blob/main/.github/PULL_REQUEST_TEMPLATE/ADD_NEW_MENTOR.md) to raise the PR.
-
-
-🙏  **resolve beginner's doubts**
-
-👍 **share beginner-friendly issues (& repositories)**.
-
-💬 **engage with other community members**.
-
-🤝 **welcome and help others to finish the Hacktoberfest challenge**.
-
-Please refer to [this blog](https://vinitshahdeo.dev/beginner-friendly-issues-for-hacktoberfest-2021) to learn more.
-
 
 ## Need help
 
