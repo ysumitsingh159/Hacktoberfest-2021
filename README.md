@@ -1,3 +1,5 @@
+![Hacktoberfest 2021](./assets/logo.svg)
+
 # Hacktoberfest-2021
 Open source is changing the world – one contribution at a time.
 
@@ -55,6 +57,7 @@ Or You can go to the offical digitalocean blog page there are info about the [Ha
 
 - Feel free to [raise a PR](hhttps://github.com/GOVINDARAJLE/Hacktoberfest-2021/pulls) to add beginner-friendly issues (& repos).
     - Kindly follow [this format](https://github.com/GOVINDARAJLE/Hacktoberfest2021/blob/main/.github/PULL_REQUEST_TEMPLATE/ADD_NEW_ISSUE.md) to raise the PR
+    - Add your issue to [issue.md](./issues.md)
 
 - Resolve the beginner's queries [here](https://github.com/GOVINDARAJLE/Hacktoberfest2021/discussions/1).
 
