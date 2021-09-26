@@ -1,8 +1,10 @@
 # Hacktoberfest-2021
 Open source is changing the world – one contribution at a time.
 
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo) [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/HacktoberFest2K19?logo=GITHUB&style=flat)](https://github.com/vinitshahdeo/Hacktoberfest2021/blob/master/LICENSE)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FGOVINDARAJLE%2FHacktoberfest2021&count_bg=%23DD8524&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=visitors&edge_flat=false)]
+
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo)
+[![GitHub license](https://img.shields.io/github/license/vinitshahdeo/HacktoberFest2K19?logo=GITHUB&style=flat)](https://github.com/vinitshahdeo/Hacktoberfest2021/blob/master/LICENSE)
+
 
 ## what is Hacktoberfest?
 **Hacktoberfest** is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. Hacktoberfest is open to everyone in our global community!
@@ -36,11 +38,18 @@ Read the [participation details](https://hacktoberfest.digitalocean.com/details)
 
 Here's a handpicked list of **beginner-friendly issues** (& repositories) ahead of time so that you can get the ball rolling once Hacktoberfest kicks off! 🚀
 
-❯ [Your First PR](#your-first-pr) 🔥
+❯ [Your First PR](https://dev.to/govindarajle/hacktoberfest-2idm) 🔥
 
-❯ [Ask Your Doubts](https://github.com/GOVINDARAJLE/Hacktoberfest-2021/discussions) 💬
+❯ [Ask Your Doubts](https://github.com/GOVINDARAJLE/Hacktoberfest-2021/discussions/1) 💬
+
+❯ [Any Help Feel Free To Ask](https://github.com/GOVINDARAJLE/Hacktoberfest-2021/discussions/1)🎤
 
 ## Your First PR
+[Go to Dev.to Read All steps](https://dev.to/govindarajle/hacktoberfest-2idm)
+Or You can go to the offical digitalocean blog page there are info about the [Hactoberfest](https://www.digitalocean.com/community/tutorials/hacktoberfest-how-to-submit-your-first-pull-request-on-github)
+
+[Offical Site](https://hacktoberfest.digitalocean.com/)
+
 
 ## Contributing
 
