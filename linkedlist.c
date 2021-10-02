@@ -87,14 +87,10 @@ NODE search(LIST l1, int value)
 
 void insertAfter(int searchEle, NODE n1, LIST l1)
 {
-     // case when list is empty
 	if(l1->count == 0) {
 		l1->head = n1;
 		n1->next = NULL;
-		l1->count++;
-	}
-	// case when list is non empty
-	else
+		l1->count++
     {
         NODE temp = l1->head;
         NODE prev = temp;
@@ -140,7 +136,7 @@ void removeFirstNode(LIST l1)
 {
     if (l1->count == 0)
     {
-        printf("List is empty. Nothing to remove\n");        
+        printf("List becomes empty. No remove\n");        
     }
     else
     {
