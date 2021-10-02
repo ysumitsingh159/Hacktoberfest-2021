@@ -4,7 +4,7 @@ void main()
 {
  int x[5],i,j,k,d,tmp;
  clrscr();
- cout<<"Enter no. for sorting=";
+ cout<<"Enter number for sort=";
   for(i=0;i<5;i++)
     {
      cin>>d>>x[i];
@@ -25,4 +25,5 @@ void main()
 	      cout<<d<<"\n"<<x[j];
 	     }
  getch();
+}
 }
