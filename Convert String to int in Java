@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class StringtoInt { 
+  public static void main(String args[]){  
+    Scanner s = new Scanner(System.in); 
+    String str = "";
+    try {
+      System.out.println("Enter a numeric String to be converted to int:");
+      str = s.next();
+
+      //Converting the above String to int using Integer.parseInt() method.
+      int toInt = Integer.parseInt(str); 
+      
+      //Printing the value after converting the String to an integer.
+      System.out.println("After converting the String to int: " + toInt);  
+    }
+    catch(NumberFormatException e) {
+      if(str.matches("(-|\\+)?[0-9.]+")){
+        //Occurs when the String contains a number outside the range of the Integer.
+        System.out.println("Please enter the numeric characters in the range of Integer (-2147483648 to 2147483647).\n");
+      }
+      else {
+        //Occurs when the String contains non-numeric characters.
+        System.out.println("Please enter a string with only numeric characters.\n");
+      }
+      e.printStackTrace(); 
+    }
+  } 
+}
