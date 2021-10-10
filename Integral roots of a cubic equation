@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+  int a=2 , b=-4 , c=-22 , d=24;
+  int x=0;
+  while(true){
+        int curr = a * pow(x , 3) + b * pow(x , 2) + c * x + d;
+        if(curr==0)
+            cout<<x<<" ";
+        x--;
+        if(curr<0)
+            break;
+  }
+  x=1;
+  while(true){
+        int curr = a * pow(x , 3) + b * pow(x , 2) + c * x + d;
+        if(curr==0)
+            cout<<x<<" ";
+        x++;
+        if(curr>0)
+            break;
+  }
+  
+   
+}
