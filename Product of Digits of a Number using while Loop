@@ -1,0 +1,18 @@
+#include<iostream>
+
+using namespace std;
+int main()
+{
+   int num, rem, prod=1;
+   cout<<"Enter a Number: ";
+   cin>>num;
+   while(num>0)
+   {
+      rem = num%10;
+      prod = prod*rem;
+      num = num/10;
+   }
+   cout<<"\nProduct of all digits of given number is: "<<prod;
+   cout<<endl;
+   return 0;
+}
