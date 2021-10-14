@@ -1,0 +1,26 @@
+class RandomizedSet {
+public:
+  unordered_map<int,int>table;
+  vector<int>v;
+  
+  bool insert(int val) {
+    if(table.count(val)) return false; 
+    table[val] = v.size();
+    v.push_back(val);
+    return true;
+  }
+    
+  bool remove(int val) {
+    if(!table.count(val)) return false;
+    int old_index = table[val];
+    table[v[old_index] = v.back()] = old_index;
+    
+    v.pop_back();
+    table.erase(val);
+    return true;
+  }
+    
+  int getRandom() {
+     return v[rand()%v.size()];   
+  }
+};
