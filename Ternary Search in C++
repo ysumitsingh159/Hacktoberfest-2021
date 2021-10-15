@@ -1,0 +1,86 @@
+//ternary search divide the program into three part then search in the part which satisfied the condition.
+//ternary search can be applied only on sorted array.
+
+#include<iostream>
+using namespace std;
+void fill(int a[],int n)
+{
+    cout<<"\n enter first element : ";
+    cin>>a[0];
+    for(int i=1;i<n;i++)
+    {
+        cout<<"\n enter next element : ";
+        cin>>a[i];
+        if(a[i]<a[i-1])             //checking whether you are entering the sorted array
+        {
+            cout<<"\n array is not sorted !!!!\t enter element greater than "<<a[i-1];  i--;
+        }
+    }
+
+}
+void display(int a[],int n)
+{
+    cout<<"\n array is : ";
+    for(int i=0;i<n;i++)
+    {
+        cout<<a[i]<<"\t";
+    }
+}
+int ternary(int a[],int n,int key)
+{
+    int s=0,e=n-1;
+    int mid1=s+(e-s)/3;
+    int mid2=e-(e-s)/3; 
+    while(s<=e)
+    {
+        if(a[mid1]==key) return mid1+1;
+        else if(a[mid2]==key)  return mid2+1;
+        else if(key<a[mid1])  e=mid1-1;
+        else if(key>a[mid2])  s=mid2+1;
+        else 
+        {
+            s=mid1+1;
+            e=mid2-1;
+        }
+    }
+    return -1;
+}
+
+int main()
+{
+    int n,key;
+    cout<<"\n enter size of array : ";
+    cin>>n;
+    int a[n];
+    fill(a,n);
+    display(a,n);
+    cout<<"\n enter element to be searched :";
+    cin>>key;
+    int r=ternary(a,n,key);
+    if(r==-1)
+    cout<<"\n element not found ";
+    else
+    cout<<"\n element found at "<<r<<" position";
+
+    return 0;
+}
+
+
+
+/* OUTPUT:
+ enter size of array : 5
+
+ enter first element : 12    
+
+ enter next element : 34
+
+ enter next element : 45
+
+ enter next element : 57
+
+ enter next element : 80
+
+ array is : 12  34      45      57      80
+ enter element to be searched :57
+
+ element found at 4 position */
